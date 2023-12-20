@@ -1,0 +1,341 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:spotify-circular,Helvetica,Arial,sans-serif;
+;
+}
+#main{
+    /* border: 2px solid red; */
+    height: 75px;
+    background-color: #000;
+}
+#main span svg{
+    height: 2.8em;
+    margin-top: 10px;
+    fill: white;
+}
+
+#section_sub{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#main section span svg{
+    height:2.8em
+}
+
+main section div{
+    /* border: 2px solid yellow; */
+    width: 40%;
+    margin-left: 590px;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    color: white;
+}
+
+#main div span + span{
+    padding-left: 30px;
+}
+#main div span:hover{
+    color: rgb(23, 231, 23);
+    cursor: pointer;
+
+}
+
+#main span svg:hover{
+    cursor: pointer;
+
+}
+
+#main1{
+    /* border: 3px solid; */
+    height: 600px;
+    background: url(./image/bubbles-dktp.svg),linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover ;
+}
+
+#main1 span svg{
+    /* border: 2px solid red; */
+    height: 35em;
+    margin-left: 250px;
+    margin-top: 100px;
+    
+}
+
+#main1 img{
+    /* border: 2px solid blue; */
+    height: 433px;
+    position: absolute;
+    top: 240px;
+    left: 258px;   
+}
+
+h1{
+    /* border: 2px solid black; */
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 35%;
+    font-weight: 900;
+}
+button{
+    border: 1px solid rgb(252, 247, 247);
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 42%;
+    top: 60%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#main2{
+    /* border: 4px solid red; */
+    height: 500px;
+
+}
+#main2 span h1{
+    /* border: 4px solid blue; */
+    position: absolute;
+    top: 100%;
+    color: black;
+    font-size: 35px;
+}
+#logo{
+    /* border: 4px solid green; */
+    display: flex;
+    height: 200px;
+    margin-left: 11%;
+    margin-right: 12%;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+#logo+div{
+    /* border: 3px solid red; */
+    display: flex;
+    margin-left: 10%;
+    margin-right: 8%;
+    justify-content: space-around;
+}
+#free{
+    border: 2px solid green;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 500px;
+    margin-top: 5%;
+    color: white;
+
+}
+#free>h3{
+    /* border: 3px solid ; */
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 13%;
+    font-size: 50px;
+}
+
+article{
+    /* border: 3px solid red; */
+    margin-top:24.5% ;
+    height: 700px;
+    
+}
+article>div>h2{
+    /* border: 2px solid blue; */
+    padding-top: 5%;
+    font-size: 40px;
+    width: 300px;
+    margin-left: 38%;
+}
+article>div>h2+div{
+    /* border: 3px solid; */
+    margin-top: 8%;
+    
+}
+article>div>h2+div>div {
+    border:none;
+    border-bottom: 1px solid rgb(221, 214, 214);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 2%;
+    font-size: 15px;
+    color: black;
+    font-weight: 900;
+    padding: 1.5%;
+}
+#down-icon{
+    font-size: 35px;
+    margin-left: 70%;
+
+}
+
+#down-icon1{
+    font-size: 35px;
+    margin-left: 93%;
+   
+}
+#down-icon2{
+    font-size: 35px;
+    margin-left: 93%;
+   
+}
+#down-icon3{
+    font-size: 35px;
+    margin-left: 70%;
+   
+}
+summary:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+aside{
+    /* border: 3px solid yellow; */
+    height: 500px;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    color: black;
+}
+aside>h2{
+    /* border: 3px solid yellow; */
+    margin-left: 30%;
+    margin-right: 20%;
+    padding-top: 10%;
+    font-size: 70px;
+    color: white;
+}
+ aside>div{
+    border: 3px solid;
+    width: 200px;
+    height: 55px;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: white;
+    font-weight: 700;
+    margin-left: 42%;
+    margin-top: 3%;
+}
+footer{
+    height: 500px;
+    background-color: black;
+    fill: white;
+    color: white;
+}
+#footer-div{
+    display: flex;
+    padding-top: 7%;
+}
+.ol0{
+    margin-left: 20%;
+}
+.ol{
+    margin-left: 10%;
+}
+.ol0>ol>li{
+    line-height: 45px;
+    list-style: none;
+}
+#ol2{
+    line-height: 45px;
+    list-style: none;
+}
+#ol3{
+    line-height: 45px;
+    list-style: none;
+}
+#bxl-instagram{
+    height: 30px;
+}
+ol li:hover{
+    color: green;
+    cursor: pointer;
+}
+#insta{
+    border: 1px solid black;
+    background: #222326;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#insta:hover{
+     color: green;
+    cursor: pointer;
+}
+.bxl-instagram{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+   
+}
+#twitter{
+     border: 1px solid black;
+    background: #222326;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#twitter:hover{
+     color: green;
+    cursor: pointer;
+}
+.bxl-twitter{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#facebook{
+    border: 1px solid black;
+    background: #222326;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+}
+#facebook:hover{
+     color: green;
+    cursor: pointer;
+}
+.bxl-facebook-circle{
+     font-size: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#footer-last{
+    margin-top: 5%;
+    display: flex;
+
+}
+#footer-last>span{
+    margin-left: 10%;
+    color: gray;
+}
+#footer-last>span+span{
+    margin-left: 2%;
+}
+#footer-last>span:hover{
+    color:#1ed760;
+    cursor: pointer;
+}
+#footer-last>div{
+    margin-left: 32%;
+    color: gray;
+}
+#footer-last>div:hover{
+    color:#1ed760;
+    cursor: pointer;
+}
+
+@media only screen and(max-width:426px){
+    main section div{
+        display: none;
+        border: 2px solid red;
+    }
+}
